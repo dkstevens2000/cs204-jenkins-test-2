@@ -42,7 +42,6 @@ public class CalculatorTest {
 
     }
 
-
     @Test
     public void divideTest(){
         Calculator myCalculator = new Calculator();
