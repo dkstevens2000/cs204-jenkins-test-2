@@ -53,7 +53,6 @@ public class CalculatorTest {
         assertEquals(1 , myCalculator.divide(3,2));
 
     }
-
     @Test
     public void divideByZeroFailure(){
         Calculator myCalculator = new Calculator();
