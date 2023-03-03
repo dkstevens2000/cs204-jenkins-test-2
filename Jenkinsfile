@@ -1,13 +1,9 @@
 pipeline {
 
     environment {
-
-            registry = "Your_Dockerhub_Username/Your_Dockerhub_Repository_Name"
-
+            registry = "dks2000/calculator-app-cs204"
             registryCredential = 'dockerhub'
-
             dockerImage=''
-
     }
     agent any
     tools {
